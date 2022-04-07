@@ -10,7 +10,7 @@ Nicht alle SIGs werden das gleiche Maß an Energie, Umfang oder Governance-Model
 
 Sehen Sie sich die vollständige Liste der [TensorFlow-SIGs an](https://github.com/tensorflow/community/tree/master/sigs) .
 
-### Non-goals: What a SIG is *not*
+### Nicht-Ziele: Was eine SIG *nicht* istf
 
 SIGs sollen die Zusammenarbeit bei gemeinsamer Arbeit erleichtern. Ein SIG ist also:
 
