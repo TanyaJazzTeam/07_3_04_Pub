@@ -1,4 +1,4 @@
-# MMailing lists
+# Listes de diffusion 00222
 
 En tant que communauté, nous faisons une grande partie de notre collaboration sur les listes de diffusion publiques. Veuillez noter que si vous cherchez de l'aide pour utiliser TensorFlow, [TensorFlow Forum](https://discuss.tensorflow.org/) , [Stack Overflow](https://stackoverflow.com/questions/tagged/tensorflow) et [GitHub](https://github.com/tensorflow/tensorflow/issues) sont les meilleurs endroits où chercher.
 
