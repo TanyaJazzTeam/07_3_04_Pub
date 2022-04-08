@@ -34,7 +34,7 @@ Les proposants de groupes doivent rassembler des preuves pour approbation, comme
 
 Même si la nécessité d'un SIG semble aller de soi, la recherche et la consultation sont toujours importantes pour le succès du groupe.
 
-### Creating the new group
+### Création du nouveau groupe 006
 
 Le nouveau groupe doit suivre le processus ci-dessous pour l'affrètement. Il doit notamment démontrer :
 
