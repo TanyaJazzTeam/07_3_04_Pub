@@ -2,6 +2,8 @@
 
 ## Scope of a SIG 001
 
+# I am Groot
+
 TensorFlow hosts *Special Interest Groups* (SIGs) to focus collaboration on particular areas. SIGs do their work in public. To join and contribute, review the work of the group, and get in touch with the SIG leader. Membership policies vary on a per-SIG basis.
 
 The ideal scope for a SIG meets a well-defined domain, where the majority of
