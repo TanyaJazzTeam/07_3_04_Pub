@@ -1,84 +1,84 @@
-# SI playbook 003
+# Libro de jugadas SI 003
 
-## Scope of a SIG 001
+## Alcance de un SIG 001
 
 TensorFlow alberga *grupos de interés especial* (SIG) para centrar la colaboración en áreas particulares. Los SIG hacen su trabajo en público. Para unirse y contribuir, revisar el trabajo del grupo y ponerse en contacto con el líder SIG. Las políticas de membresía varían según el SIG. d
 
-The ideal scope for a SIG meets a well-defined domain, where the majority of participation is from the community. Additionally, there should be sufficient evidence that there are community members willing to engage and contribute should the interest group be established.
+El alcance ideal para un SIG cumple con un dominio bien definido, donde la mayoría de la participación es de la comunidad. Además, debe haber suficiente evidencia de que hay miembros de la comunidad dispuestos a participar y contribuir en caso de que se establezca el grupo de interés.
 
-Not all SIGs will have the same level of energy, breadth of scope, or governance models, so expect some variability.
+No todos los SIG tendrán el mismo nivel de energía, amplitud de alcance o modelos de gobierno, así que espere cierta variabilidad.
 
-See the complete list of [TensorFlow SIGs](https://github.com/tensorflow/community/tree/master/sigs).
+Consulta la lista completa de [SIG de TensorFlow](https://github.com/tensorflow/community/tree/master/sigs) .
 
-### 002 Non-goals: What a SIG is *not*
+### 002 Sin objetivos: lo que *no* es un SIG
 
-SIGs are intended is to facilitate collaboration on shared work. A SIG is therefore:
+Los SIG están destinados a facilitar la colaboración en el trabajo compartido. Un SIG es por lo tanto:
 
 - *No es un foro de soporte* : una lista de correo y un SIG no es lo mismo. sa
-- *Not immediately required*: early on in a project's life, you may not know if you have shared work or collaborators.
-- *Not free labor*: energy is required to grow and coordinate the work collaboratively.
+- *No se requiere de inmediato* : al principio de la vida de un proyecto, es posible que no sepa si ha compartido trabajo o colaboradores.
+- *Mano de obra no gratuita* : se requiere energía para crecer y coordinar el trabajo de forma colaborativa.
 
-Our approach to SIG creation will be conservative—thanks to the ease of starting projects on GitHub, there are many avenues where collaboration can happen without the need for a SIG.
+Nuestro enfoque para la creación de SIG será conservador: gracias a la facilidad de iniciar proyectos en GitHub, hay muchas vías en las que se puede colaborar sin necesidad de un SIG.
 
 ## SIG ciclo de vida 004 ss
 
-### Research and consultation 005
+### Investigación y consulta 005
 
-Proposers of groups should gather evidence for approval, as specified below. Some possible avenues to consider are:
+Los proponentes de grupos deben reunir pruebas para su aprobación, como se especifica a continuación. Algunas vías posibles a considerar son:
 
-- A well-defined problem or set of problems the group would solve.
-- Consultation with community members who would benefit, assessing both the benefit and their willingness to commit.
-- For existing projects, evidence from issues and PRs that contributors care about the topic.
-- Potential goals for the group to achieve.
-- Resource requirements of running the group.
+- Un problema bien definido o un conjunto de problemas que el grupo resolvería.
+- Consulta con los miembros de la comunidad que se beneficiarían, evaluando tanto el beneficio como su disposición a comprometerse.
+- Para proyectos existentes, evidencia de problemas y relaciones públicas de que los colaboradores se preocupan por el tema.
+- Metas potenciales a alcanzar por el grupo.
+- Requerimientos de recursos para operar el grupo.
 
-Even if the need for a SIG seems self-evident, the research and consultation is still important to the success of the group.
+Incluso si la necesidad de un SIG parece evidente, la investigación y la consulta siguen siendo importantes para el éxito del grupo.
 
-### Creating the new group
+### Creando el nuevo grupo
 
-The new group should follow the below process for chartering. In particular, it must demonstrate:
+El nuevo grupo debe seguir el siguiente proceso para la constitución. En particular, debe demostrar:
 
-- A clear purpose and benefit to TensorFlow (either around a sub-project or application area)
-- Two or more contributors willing to act as group leads, existence of other contributors, and evidence of demand for the group
-- Resources it will initially require (usually, mailing list and regular VC call.)
+- Un propósito claro y un beneficio para TensorFlow (ya sea en torno a un subproyecto o área de aplicación)
+- Dos o más colaboradores dispuestos a actuar como líderes del grupo, existencia de otros colaboradores y evidencia de demanda para el grupo
+- Recursos que requerirá inicialmente (generalmente, una lista de correo y una llamada regular de VC).
 
-Approval for the group will be given by a decision of the TF Community Team, defined as being the maintainers of the tensorflow/community project. The team will consult other stakeholders as necessary.
+La aprobación para el grupo será otorgada por una decisión del Equipo de la comunidad de TF, definido como los mantenedores del proyecto tensorflow/community. El equipo consultará a otras partes interesadas según sea necesario.
 
-Before entering the formal parts of the process, it is advisable to consult with the TensorFlow community team, community-team@tensorflow.org. It is highly likely that conversation and iteration will be required before the SIG request is ready.
+Antes de ingresar a las partes formales del proceso, se recomienda consultar con el equipo de la comunidad de TensorFlow, community-team@tensorflow.org. Es muy probable que se requiera conversación e iteración antes de que la solicitud SIG esté lista.
 
-The formal request for the new group is done by submitting a charter as a PR to tensorflow/community, and including the request in the comments on the PR (see template below). On approval, the PR for the group will be merged and the required resources created.
+La solicitud formal para el nuevo grupo se realiza enviando una carta como RP a tensorflow/community e incluyendo la solicitud en los comentarios sobre el RP (consulte la plantilla a continuación). Tras la aprobación, el RP del grupo se fusionará y se crearán los recursos necesarios.
 
-### Template Request for New SIG
+### Solicitud de plantilla para nuevo SIG
 
-This template will be available in the community repo: [SIG-request-template.md](https://github.com/tensorflow/community/blob/master/governance/SIG-request-template.md).
+Esta plantilla estará disponible en el repositorio de la comunidad: [SIG-request-template.md](https://github.com/tensorflow/community/blob/master/governance/SIG-request-template.md) .
 
-### Chartering
+### fletamento
 
-Each group will be established with a charter, and be governed by the TensorFlow code of conduct. Archives of the group will be public. Membership may either be open to all without approval, or available on request, pending approval of the group administrator.
+Cada grupo se establecerá con un estatuto y se regirá por el código de conducta de TensorFlow. Los archivos del grupo serán públicos. La membresía puede estar abierta a todos sin aprobación o disponible a pedido, pendiente de la aprobación del administrador del grupo.
 
-The charter must nominate an administrator. As well as an administrator, the group must include at least one person as lead (these may be the same person), who will serve as point of contact for coordination as required with the TensorFlow community team.
+La carta debe nombrar un administrador. Además de un administrador, el grupo debe incluir al menos una persona como líder (puede ser la misma persona), que servirá como punto de contacto para la coordinación, según se requiera, con el equipo de la comunidad de TensorFlow.
 
-This charter will be posted initially to the group mailing list. The community repository in the TensorFlow GitHub organization will archive such documents and policies ([example from Kubernetes](https://github.com/kubernetes/community)). As any group evolves its practices and conventions, we expect it to document these within the relevant part of the community repository.
+Esta carta se publicará inicialmente en la lista de correo del grupo. El repositorio de la comunidad en la organización TensorFlow GitHub archivará dichos documentos y políticas ( [ejemplo de Kubernetes](https://github.com/kubernetes/community) ). A medida que un grupo desarrolla sus prácticas y convenciones, esperamos que las documente en la parte correspondiente del repositorio de la comunidad.
 
-### Collaboration and inclusion
+### Colaboración e inclusión
 
-While it is not mandated, the group should choose to make use of collaboration via scheduled conference call or chat channels to conduct meetings. Any such meetings should be advertised on the mailing list, and notes posted to the mailing list afterwards. Regular meeting helps drive accountability and progress in a SIG.
+Si bien no es obligatorio, el grupo debe optar por hacer uso de la colaboración a través de llamadas de conferencia programadas o canales de chat para realizar reuniones. Cualquier reunión de este tipo debe anunciarse en la lista de correo y las notas deben publicarse en la lista de correo después. Las reuniones periódicas ayudan a impulsar la rendición de cuentas y el progreso en un SIG.
 
-TensorFlow community team members will proactively monitor and encourage the group to discussion and action as appropriate.
+Los miembros del equipo de la comunidad de TensorFlow supervisarán de forma proactiva y animarán al grupo a debatir y actuar según corresponda.
 
-### Launching
+### Lanzamiento
 
-Required activities:
+Actividades requeridas:
 
-- Notifying TensorFlow general discussion groups ([discuss@](https://groups.google.com/a/tensorflow.org/forum/#!forum/discuss), [developers@](https://groups.google.com/a/tensorflow.org/forum/#!forum/developers)).
-- Adding SIG to the community pages on TensorFlow web site.
+- Notificar a los grupos de discusión general de TensorFlow ( [discutir@](https://groups.google.com/a/tensorflow.org/forum/#!forum/discuss) , [desarrolladores@](https://groups.google.com/a/tensorflow.org/forum/#!forum/developers) ).
+- Agregar SIG a las páginas de la comunidad en el sitio web de TensorFlow.
 
-Optional activities:
+Actividades opcionales:
 
-- Creating a blog post for the TensorFlow blog community.
+- Creación de una publicación de blog para la comunidad de blogs de TensorFlow.
 
-### Health and termination of SIGs
+### Sanidad y terminación de SIGs
 
-The TensorFlow community team will make a best effort to ensure the health of SIGs. From time to time it will request the SIG lead to provide a report of the SIG's work, which will be used to inform the broader TensorFlow community of the activity of the group.
+El equipo de la comunidad de TensorFlow hará todo lo posible para garantizar la salud de los SIG. De vez en cuando, solicitará al líder del SIG que proporcione un informe del trabajo del SIG, que se utilizará para informar a la comunidad más amplia de TensorFlow sobre la actividad del grupo.
 
-If a SIG no longer has a useful purpose or interested community, it may be archived and cease operation. The TF community team reserves the right to archive such inactive SIGs, in order to maintain the health of the project at large, though it is a less preferable outcome. A SIG may also opt to disband if it recognizes it has reached the end of its useful life.
+Si un SIG ya no tiene un propósito útil o una comunidad interesada, puede ser archivado y dejar de funcionar. El equipo de la comunidad de TF se reserva el derecho de archivar dichos SIG inactivos para mantener la salud del proyecto en general, aunque es un resultado menos preferible. Un SIG también puede optar por disolverse si reconoce que ha llegado al final de su vida útil.
